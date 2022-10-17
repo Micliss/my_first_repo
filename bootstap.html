@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstap.css"/>
+</head>
+<body> 
+ 
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark  bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="#"><img src="apple logo.ico" alt=""></a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <div class="row">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="carousel" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active"data-bs-interval="2000"  >
+                
+                <img src="beauty.jpg" class=" img-fluid d-block w-100 " alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p><h2>Beautiful world to explore 1</h2></p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="beauty.jpg" class="img-fluid d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p><h2>Beautiful world to explore 2</h2> </p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="beauty.jpg" class="img-fluid  d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p><h2>Beautiful world to explore 3</h2> </p>
+                </div>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="beauty.jpg" class="img-fluid  d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p><h2>Beautiful world to explore 4</h2> </p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="beauty.jpg" class="img-fluid  d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p><h2>Beautiful world to explore 5</h2> </p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+    </div>
+    <div class="container-fluid">
+        <div class="row my-5">
+            <div class=" col-md-7 col-sm-12 col-lg-8 border border-info" >
+                <div class="p-5 border border-dark">
+                    <img src="beauty.jpg"   class="img-fluid" class="border border-secondary"pb-5 />
+                </div>
+                    <div class="row my-3">
+                        <div class="col-md-6 card ">
+                            <div class="p-2 border border-dark">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing 
+                                    elit. Mollitia dolorem quibusdam magni nulla magnam  
+                                      
+                                     
+                                </p>
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-6 card shadow shadow-sm">
+                            <div class="p-2 border border-dark">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing 
+                                    elit. Mollitia dolorem quibusdam magni nulla magnam
+                                      
+                                     
+                                </p>
+    
+                            </div>
+    
+                        </div>
+                    </div>
+
+                </div>
+                
+
+                
+                <div class="col-md-5 col-sm-12 col-lg-4">
+                        <div class="p-2 border border-dark">
+                            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                <h2>You have sucessfully registered your credentials!!</h2>
+
+                            </div>
+                            <form class="was-validated">
+                                <label for="" > <h1>Register Here</h1></label>
+                                <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" required value=""  placeholder="Your Name" id="name">
+                                <div class="valid-feedback">
+                                    Looks Great!
+                                </div>
+                               <div class="invalid-feedback">
+                                invalid feedback
+                               </div>
+
+
+                               <div class="mb-3">
+                                <label for="username" class="form-label">Username</label>
+                                <div class="input-group"></div>
+                                <span class="input-group-text" id="basic-addon1">User</span>
+                                <input type="text" class="form-control" placeholder="Username">
+                                <span class="input-group-text" id="basic-addon1">@</span>
+                               </div>
+                                
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                 <input type="password" class="form-control"
+                                 placeholder="password" id="password">
+                                 <div id="passwordHelpBlock" class="form-text">
+                                     Your Password must be 8-20 characters long,containing letters and numbers.
+                                 </div>
+                                 </div>
+                            <div>
+                                <div class="form-floating mb-3">
+                                     
+                                     <input type="text" class="form-control"
+                                     placeholder="email" id="email">
+                                     <label for="email" class="form-label">Enter email</label>
+                                </div>
+                            </div>
+                            
+                                <div class="mb-3">
+                                     <label for="nationality" class="form-label"> Nationality</label>
+                                     <select name="" id="nationality" class="form-select" multiple aria-label="multiple select example">
+                                        <option value="">Adamawa</option>
+                                        <option selected value="">Delta</option>
+                                        <option value="">Kogi</option>
+                                        <option value="">Oyo</option>
+                                     </select>
+                                     
+                                </div>
+                                <label><h2>Educational Status</h2></label>
+                                <div class="form-check"> 
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" >
+                                    <label class="B.sc" for="B.sc">B.sc
+                                    </label>
+                                </div>
+                                <div class="form-check form-check-inline" > 
+                                   
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" >
+                                    <label class="p.hd" for="p.hd">p.hd
+                                    </label>
+                                </div>
+                                <div class="form-check"> 
+                                    <input class="form-check-input" type="radio" value="" id="flexCheckDefault" >
+                                    <label class="radio" for="radio">radio
+                                    </label>
+                                </div>
+                                        <div class="form-check form-switch">
+                                          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                                          <label class="form-check-label" for="switch" > Switch</label>
+                                          </div>
+
+                                          <a href="" class="btn btn-outline-danger btn-lg disabled w-100"> Go Back</a>
+
+                                      <div class="btn btn-outline-success btn-lg disabled w-100" disabled>Submit</div>
+                                    
+                                      
+                            </form>
+                        
+                        </div>
+                          <div class="row my-5">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                      FAQ's
+                                    </button>
+                                  </h2>
+                                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                      <strong>Question:</strong> how can i get money with my skills as a web developer?..... <strong>Answer:</strong>  welcome to my page,dear sir/madam, you can put your skill to practice and attain great wealth by marketing your skills.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                      Accordion Item #2
+                                    </button>
+                                  </h2>
+                                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                      Accordion Item #3
+                                    </button>
+                                  </h2>
+                                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Do you want to exit this site?..
+</button>
+
+                            
+
+                         </div>
+                       
+                    
+                </div>
+                <div class="row">
+                    <p class="text-center"> Designed By Bliss &#169; 2022
+
+                    </p>
+
+                </div>
+    </div>
+            </div>
+             
+        
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
